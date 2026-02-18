@@ -84,7 +84,7 @@ sequenceDiagram
     participant server
 
     Note right of browser: User writes a note and clicks the "Save" button
-    Note right of browser: JS intercepts the default form submit.<br>It creates a new note, adds it to the local list,<br>and re-renders the UI immediately.
+    Note right of browser: The callback function prevent the default handling of form's submit.<br>It creates a new note, adds it to the notes list,<br>and rerenders the note list on the page and sends the new note to the server.
     
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate server
