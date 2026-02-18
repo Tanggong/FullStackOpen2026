@@ -7,7 +7,7 @@
 ## My Progress
 | Part | Topic | Notes | Exercises |
 | ---- | ----- | ----- | --------- |
-| **Part 0** | Fundamentals of Web apps | | |
+| **Part 0** | Fundamentals of Web apps |[18/02/2026](./Part0/Note_0.md) | [submited](./Part0/Excersize0.md) |
 | **Part 1** | Introduction to React | | |
 | **Part 2** | Communicating with server | | |
 | **Part 3** | Programming a server with NodeJS and Express | | |
